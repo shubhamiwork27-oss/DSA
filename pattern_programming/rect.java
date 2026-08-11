@@ -17,6 +17,6 @@ public class rect{
     }
 
     public static void main(String[] args) {
-        hollow_rect(10,20);
+        hollow_rect(50,20);
     }
 }
