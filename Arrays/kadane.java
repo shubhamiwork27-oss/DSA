@@ -4,7 +4,7 @@ public class kadane {
     public static void kadanes(int arr[]) {
         int cs = 0;
         int ms = Integer.MIN_VALUE;
-        int small = 0;
+        int small = Integer.MIN_VALUE;
 
 
         for (int i = 0; i < arr.length; i++) { 
@@ -14,22 +14,23 @@ public class kadane {
             }
             ms = Math.max(cs, ms); 
         }
-           if(cs == 0){
-                for (int k = 0; k < arr.length; k++) {
-                    if(arr[k] < 0){
-                        small = arr[k];
-                        if (small > arr[k]) {
-                        }
-                        System.out.println(small);
-                    }
-                }
-        }
         
 
-        System.out.println("The largest sum is : " + ms);
+           if(cs == 0){
+             for (int num : arr) {
+                if(num < 0 && num > small){
+                     small = num;
+                 }
+             }
+             System.out.println("The largest sum number is : " + small);
+          }else{
+             System.out.println("The largest sum number is : " + ms);
+          }
+        
+
     }
     public static void main(String[] args) {
-        int arr[] = {-2,-4,-6,-8};
+        int arr[] = {-1,-4,-6,-8,-9};
          kadanes(arr);
     }
 
