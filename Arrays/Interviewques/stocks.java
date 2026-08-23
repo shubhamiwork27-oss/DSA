@@ -1,4 +1,4 @@
-public class Stocks {
+public class stocks {
 
     public static int stock(int amount[]) {
         int buyPrice = Integer.MAX_VALUE;
@@ -10,7 +10,6 @@ public class Stocks {
             }else{
                 buyPrice = amount[i];
             }
-             
         }
         return maxprofit;
     }
