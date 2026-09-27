@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Note_five",
+      "request": "launch",
+      "mainClass": "Note_five",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Note_one",
       "request": "launch",
       "mainClass": "Note_one",
