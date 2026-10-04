@@ -1,0 +1,6 @@
+Merge sort
+---------------
+|1|5|4|3|2|7|6|
+---------------
+mid = si(ei-si)/2;
+where : |si = starting Index | ei = ending Index

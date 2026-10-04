@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Mergesort",
+      "request": "launch",
+      "mainClass": "DivideConquer.Mergesort",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Mergesort",
+      "request": "launch",
+      "mainClass": "Mergesort",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Note_five",
       "request": "launch",
       "mainClass": "Note_five",
