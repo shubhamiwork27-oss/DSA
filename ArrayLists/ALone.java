@@ -14,10 +14,11 @@ public class ALone {
 
         list.add(1,8); //dynamic data adding --O(n)
 
-        System.out.println(list);
-
         // System.out.println(list);
-
+        
+        for (int i =0 ; i < list.size() ; i++) {
+            System.out.print(list.get(i) + " ");
+        }
 
         // //get opertaion -- O(1)
         // int elem = list.get(2);

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Almax",
+      "request": "launch",
+      "mainClass": "ArrayLists.Almax",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Mergesort",
       "request": "launch",
       "mainClass": "DivideConquer.Mergesort",
