@@ -78,22 +78,7 @@ public int removeFirst(){
         return val;
     
 }
-//=======================================
-//Removing the Last Node
-public int removeLast(){
-    if(head == null){
-        System.out.println("DLL is EMPTY");
-        return Integer.MIN_VALUE;
-    }else if(size == 1){
-        int val = head.data;
-        head = tail = null;
-        size--;
-        return val;
 
-    }
- 
-    
-}
 //=======================================
 //MAIN function
     public static void main(String[] args) {
