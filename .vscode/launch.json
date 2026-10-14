@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubsetPC",
+      "request": "launch",
+      "mainClass": "SubsetPC",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stackArr",
+      "request": "launch",
+      "mainClass": "stackArr",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Almax",
       "request": "launch",
       "mainClass": "ArrayLists.Almax",
